@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animesh Game</title>
+    
+    <link rel="stylesheet" type="text/css" href="myStyles.css">
+    
+</head>
+<body>
+    <div class= "my-container">
+        <h1>Guess the Number</h1>
+        <input id= "user_input" type="number" min="1" max="100"></input>
+        
+        <button id="guess_btn" onclick="check()">Guess</button>
+        
+        <br>
+        
+        <p id ="mesg"></p>
+        <p id ="mesg_tries"></p>
+        
+        <button id="reset_btn" onclick="reset_Game()">Reset</button>
+        
+        
+    </div>
+    <div class="my-container2">
+        <h3>Some of my Social Links</h3>
+        <img src="profilePic.png" alt="myPic">
+        
+        <ul>
+            <li>Social Media</li>
+            <ol>
+                <li><a href="https://www.instagram.com/__.badmashito.__/">Instagram</a></li>
+                
+                <li><a href="https://youtube.com/@badmashito4059">Youtube</a></li>
+                
+                <li><a href="https://www.linkedin.com/in/animesh-das-763129246?fromQR=1">Linkedin</a></li>
+                <li><a href="https://www.twitter.com/BadmashitoYT">Twitter</a></li>
+                
+            </ol>
+            
+            
+            <li>Coding Profiles</li>
+            <ol>
+                <li><a href="https://github.com/Badmashito-YT">Github</a></li>
+                <li><a href="https://www.codechef.com/users/animesh_das22">Codechef</a></li>
+            </ol>
+        </ul>
+        
+    </div>
+    
+    <footer>
+        <?php $today = date("YYYY") ?>
+        
+        <p>&copy;Animesh Das.All rights reserved <?php echo $today; ?> !</p>
+        
+    </footer>
+    
+    <script src="myJavaScript.js"></script>
+    
+</body>
+</html>
